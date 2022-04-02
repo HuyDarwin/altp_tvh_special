@@ -1,0 +1,106 @@
+body {
+	overflow: hidden;
+	background-color:black;
+	background-position: center;
+	background-size: cover;
+}
+
+div, img {
+	position:absolute;
+	margin:auto;
+}
+
+p {
+	margin:auto;
+	position:absolute;
+	letter-spacing:0px;
+}
+
+table {
+	margin:auto;
+	position:absolute;
+	padding:0px;
+}
+
+div.question {
+	width:100%;
+	bottom:-75px;
+	left:0px;
+	right:0px;
+	display: inline-block;
+}
+
+div.answer {
+	width:100%;
+	bottom:-225px;
+	left:0px;
+	right:0px;
+}
+
+div.answerA, div.answerB, div.answerC, div.answerD {
+	width:50%;
+	height:100px;
+}
+
+img.q-img {
+	width:100%;
+}
+
+table.q-table {
+	width:1575px;
+	bottom:0px;
+	top:135px;
+	margin-left:240px;
+	letter-spacing:0px;
+}
+
+.q-td {
+	vertical-align:middle;
+	font-size:31pt;
+	font-family:Verdana;
+	color:#FFFFFF;
+	text-align:center;
+}
+
+img.a-img, img.a-f-img, img.a-c-img {
+	width:100%;
+}
+
+img.a-f-img, img.a-c-img {
+	opacity:0;
+}
+
+.letter {
+	font-size:28pt;
+	font-family:Verdana;
+	color:c5964b;
+	text-align:left;
+	vertical-align:middle;
+	top:22px;
+	opacity:0;
+}
+
+.answer-text {
+	font-size:28pt;
+	font-family:Verdana;
+	color:white;
+	text-align:left;
+	vertical-align:middle;
+	top:22px;
+	opacity:0;
+}
+
+.diagonal {
+	top:25px;
+	opacity:0;
+}
+
+div.lifeline-holder {
+	width:195%;
+	height:19.5%;
+	background:url('../Images/lifeline_holder.png') no-repeat;
+	background-size:contain;
+	opacity:0;
+	bottom:140px;
+	left:140px;
+}
