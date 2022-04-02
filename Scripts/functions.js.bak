@@ -1,0 +1,47 @@
+$(function () {
+	"use strict";
+
+	window.AiLaTrieuPhu = window.AiLaTrieuPhu || {};
+
+	(function (altp) {
+		altp.RevealQuestion = function(){
+			$('.question').animate({'bottom':'-75px'}, 0, 'linear', function(){
+				$('.question').animate({'bottom':'250px'}, 350, 'linear', function(){
+					$('.question').animate({'bottom':'225px'}, 150, 'linear');
+				});
+			});
+		}
+		altp.HideQuestion = function(){
+			$('.answer').animate({'bottom':'-75px'}, 500, 'linear');
+			$('.question').animate({'bottom':'-225px'}, 900, 'linear');
+		}
+		altp.RevealAnswers = function(){
+			$('.a-f-img, .a-c-img, .diagonal, .letter, .answer-text').css('opacity',0);
+			$('.answer').animate({'bottom':'325px'}, 500, 'linear');
+			$('.question').animate({'bottom':'475px'}, 500, 'linear');
+		}
+		altp.RevealAnswerText = function(at){
+			var l = String.fromCharCode(at + 64);
+			$('#answer' + l + 'diagonal, #answer' + l + 'letter, #answer' + l + 'text').animate({opacity:1}, 200, 'linear');
+		}
+		altp.LockInAnswer = function(fa){
+			$('.a-f-img').css('opacity',0);
+			$('#answer'+ fa +'final').animate({ opacity: 1 }, 500);
+		}
+		altp.RevealCorrectAnswer = function(ca){
+			$('.a-c-img').css('opacity',0);
+			$('#answer'+ ca +'correct').animate({ opacity: 1 }, 500);
+		}
+		altp.RevealLifelineHolder = function(){
+			$('.lifeline-holder').animate({perspective:4096, opacity: 0, 'bottom':'80px'}, 0, function(){
+				$('.lifeline-holder').animate({perspective:4096, opacity: 1, 'bottom':'145px'}, 500, 'linear');
+				$('.lifeline-holder').animate({ deg: 180 },{duration: 500,step: function(now) {
+					$(this).css({ transform: 'rotate(' + now + 'deg)' });
+				}});
+			})
+		}
+		altp.HideLifelineHolder = function(){
+			$('.lifeline-holder').animate({perspective:4096, opacity: 0}, 500, 'linear');
+		}
+	}(window.AiLaTrieuPhu = window.AiLaTrieuPhu || {}));
+});
