@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>Ai là triệu phú - TVHouse</title>
+	
+	<script type="text/javascript" src="Scripts/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="Scripts/functions.js"></script>
+	<script type="module" src="Scripts/firebase.js"></script>	
+	<script type="module" src="Scripts/index_fb.js"></script>
+	
+    <link rel="stylesheet" type="text/css" href="Styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="Styles/site.css">
+	
+    <meta charset="utf-8" />
+</head>
+<body>
+	<div class='question'>
+		<img src="Images/question.png" class="q-img" />
+		<table class='q-table'>
+			<tr>
+				<td class="q-td"></td>
+			</tr>
+		</table>
+	</div>
+	<div class='answer'>
+		<div class='answerA' style='left:0px;'>
+			<img src='Images/answer_a.png' class='a-img'/>
+			<img src='Images/answer_a_final.png' class='a-f-img' id='answerAfinal' />
+			<img src='Images/answer_a_correct.png' class='a-c-img' id='answerAcorrect' />
+			<img src='Images/white_diagonal.png' class='diagonal' id='answerAdiagonal' style='left:235px'/>
+			<p class='letter' id='answerAletter' style='left:280px'></p>
+			<p class='answer-text' id='answerAtext' style='left:330px'></p>
+		</div>
+		<div class='answerB' style='left:50%;'>
+			<img src='Images/answer_b.png' class='a-img'/>
+			<img src='Images/answer_b_final.png' class='a-f-img' id='answerBfinal' />
+			<img src='Images/answer_b_correct.png' class='a-c-img' id='answerBcorrect' />
+			<img src='Images/white_diagonal.png' class='diagonal' id='answerBdiagonal' style='left:45px'/>
+			<p class='letter' id='answerBletter' style='left:90px'></p>
+			<p class='answer-text' id='answerBtext' style='left:140px'></p>
+		</div>
+		<div class='answerC' style='left:0px; top:90px;'>
+			<img src='Images/answer_c.png' class='a-img'/>
+			<img src='Images/answer_c_final.png' class='a-f-img' id='answerCfinal' />
+			<img src='Images/answer_c_correct.png' class='a-c-img' id='answerCcorrect' />
+			<img src='Images/white_diagonal.png' class='diagonal' id='answerCdiagonal' style='left:235px'/>
+			<p class='letter' id='answerCletter' style='left:280px'></p>
+			<p class='answer-text' id='answerCtext' style='left:330px'></p>
+		</div>
+		<div class='answerD' style='left:50%; top:90px;'>
+			<img src='Images/answer_d.png' class='a-img'/>
+			<img src='Images/answer_d_final.png' class='a-f-img' id='answerDfinal' />
+			<img src='Images/answer_d_correct.png' class='a-c-img' id='answerDcorrect' />
+			<img src='Images/white_diagonal.png' class='diagonal' id='answerDdiagonal' style='left:45px'/>
+			<p class='letter' id='answerDletter' style='left:90px'></p>
+			<p class='answer-text' id='answerDtext' style='left:140px'></p>
+		</div>
+
+	</div>
+</body>

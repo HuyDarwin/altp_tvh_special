@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Ai là triệu phú - TVHouse: Bộ điều khiển</title>
+	
+	<script type="text/javascript" src="Scripts/jquery-3.3.1.min.js"></script>
+	<script type="module" src="Scripts/firebase.js"></script>
+	<script type="module" src="Scripts/controller_fb.js"></script>
+	
+    <link rel="stylesheet" type="text/css" href="Styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="Styles/site_controller.css">
+	
+    <meta charset="utf-8" />
+</head>
+<body>
+	<div class='frame-1'>
+		<button class='rq'>Reveal the Question</button>
+		<button class='ras'>Reveal the Answers</button>
+		<button class='rea'>Reveal Answer A</button>
+		<button class='hq'>Hide the Question</button>
+		<button class='lkA'>A</button>
+		<button class='lkB'>B</button>
+		<button class='lkC'>C</button>
+		<button class='lkD'>D</button>
+		<button class='rlh'>Reveal Lifeline Holder</button>
+		<button class='bcs'>Hide Lifeline Holder</button>
+		<button class='rca'>Reveal Correct Answer (.)</button>
+	</div>
+	<script>
+		var ar = 0;
+		var fa = "";
+		var ca = "B";
+	</script>
+</body>
