@@ -1,0 +1,122 @@
+<questions>
+	<question>
+		<category></category>
+		<text>Đâu là tên của một kiểu bím tóc?</text>
+		<a correct="yes">Đuôi sam</a>
+		<b correct="no">Đuôi voi</b>
+		<c correct="no">Đuôi dây</c>
+		<d correct="no">Đuôi chim</d>
+	</question>
+	<question>
+		<category></category>
+		<text>Từ nào sau đây khác nghĩa với các từ còn lại?</text>
+		<a correct="no">Linh hoạt</a>
+		<b correct="no">Nhanh nhạy</b>
+		<c correct="yes">Lề mề</c>
+		<d correct="no">Hoạt bát</d>
+	</question>
+	<question>
+		<category></category>
+		<text>Điền từ còn thiếu vào thành ngữ sau: "... kêu to"?</text>
+		<a correct="no">Lọ vỡ</a>
+		<b correct="yes">Thùng rỗng</b>
+		<c correct="no">Gà trống</c>
+		<d correct="no">Dùi cui</d>
+	</question>
+	<question>
+		<category></category>
+		<text>Từ nào sau đây viết đúng chính tả?</text>
+		<a correct="no">Sao suyến</a>
+		<b correct="no">Sao xuyến</b>
+		<c correct="no">Xao suyến</c>
+		<d correct="yes">Xao xuyến</d>
+	</question>
+	<question>
+		<category></category>
+		<text>Đâu là tên một loài vật?</text>
+		<a correct="yes">Sao la</a>
+		<b correct="no">So lao</b>
+		<c correct="no">La sao</c>
+		<d correct="no">Lao sa</d>
+	</question>
+	<question>
+		<category></category>
+		<text>Mùa 3 chương trình "Ai là triệu phú - TVHouse" bắt đầu vào ngày đặc biệt nào?</text>
+		<a correct="yes">Giao thừa</a>
+		<b correct="no">Tết Đoan Ngọ</b>
+		<c correct="no">Trung thu</c>
+		<d correct="no">Tết Hàn Thực</d>
+	</question>
+	<question>
+		<category></category>
+		<text>Năm nay (2022), những tháng nào mà số thứ tự ngày ở lịch dương trùng với số thứ tự ngày ở lịch âm?</text>
+		<a correct="no">Tháng 1, tháng 3</a>
+		<b correct="yes">Tháng 2, tháng 4</b>
+		<c correct="no">Tháng 5, tháng 7</c>
+		<d correct="no">Tháng 6, tháng 8</d>
+	</question>
+	<question>
+		<category></category>
+		<text>Đơn vị đo của đại lượng này sau đây được lấy tên theo nhà sáng chế người Đức Werner von Siemens?</text>
+		<a correct="no">Điện dung</a>
+		<b correct="no">Điện áp</b>
+		<c correct="no">Điện tích</c>
+		<d correct="yes">Điện trở</d>
+	</question>
+	<question>
+		<category></category>
+		<text>Trong phần điệp khúc của bài hát "Cho em một ngày" của nhạc sĩ Dương Thụ, mùa nào sau đây đã nhắc đến?</text>
+		<a correct="yes">Mùa đông</a>
+		<b correct="no">Mùa xuân</b>
+		<c correct="no">Mùa thu</c>
+		<d correct="no">Mùa hè</d>
+	</question>
+	<question>
+		<category></category>
+		<text>Tỉnh nào sau đây có tới 2 mã vùng biển số xe?</text>
+		<a correct="no">Tiền Giang</a>
+		<b correct="no">Bình Dương</b>
+		<c correct="yes">Đồng Nai</c>
+		<d correct="no">Long An</d>
+	</question>
+	<question>
+		<category></category>
+		<text>Nguyên tố hoá học Uranium được đặt tên vào năm 1789 để kỉ niệm sự kiện phát hiện ra hành tinh nào trong Hệ Mặt Trời?</text>
+		<a correct="no">Sao Hải Vương</a>
+		<b correct="yes">Sao Thiên Vương</b>
+		<c correct="no">Sao Thuỷ</c>
+		<d correct="no">Sao Kim</d>
+	</question>
+	<question>
+		<category></category>
+		<text>Hiện tại, trụ sở chính của Tổ chức các nước xuất khẩu dầu mỏ (OPEC) đặt tại quốc gia nào?</text>
+		<a correct="no">Thuỵ Sĩ</a>
+		<b correct="yes">Áo</b>
+		<c correct="no">Iraq</c>
+		<d correct="no">Ả Rập Xê Út</d>
+	</question>
+	<question>
+		<category></category>
+		<text>Nữ hoàng Elizabeth II (Đệ nhị) trở thành Nữ hoàng Vương quốc Anh vào năm nào?</text>
+		<a correct="no">1949</a>
+		<b correct="no">1950</b>
+		<c correct="no">1951</c>
+		<d correct="yes">1952</d>
+	</question>
+	<question>
+		<category></category>
+		<text>Referring to Helen of Troy, the oft-qouted line "Was this the face that launched a thousand ships" was written by whom?</text>
+		<a correct="no">Alexander Pope</a>
+		<b correct="no">Dante Alighieri</b>
+		<c correct="yes">Christopher Marlowe</c>
+		<d correct="no">John Milton</d>
+	</question>
+	<question>
+		<category></category>
+		<text>While mostly abbreviated to the phrase "hell hath no fury like a woman scorned" the complete qoute from "The Mourning Bride" is attributed to which playright?</text>
+		<a correct="no">Oscar Wilde</a>
+		<b correct="no">Anton Chekhov</b>
+		<c correct="no">William Shakespeare</c>
+		<d correct="yes">William Congreve</d>
+	</question>
+</questions>
