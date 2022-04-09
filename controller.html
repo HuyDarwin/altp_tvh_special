@@ -24,10 +24,87 @@
 		<button class='rlh'>Reveal Lifeline Holder</button>
 		<button class='hlh'>Hide Lifeline Holder</button>
 		<button class='rca'>Reveal Correct Answer (.)</button>
+		<button class='rms'>Reveal Money Strap</button>
+	</div>
+	<div class='frame-2'>
+		<div class='question'>
+			<img src="Images/question.png" class="q-img" />
+			<table class='q-table'>
+				<tr>
+					<td class="q-td"></td>
+				</tr>
+			</table>
+		</div>
+		<div class='answer'>		
+			<div class='answerA' style='left:0px; bottom:240px;'>
+				<img src='Images/answer_a.png' class='a-img'/>
+				<img src='Images/answer_a_final.png' class='a-f-img' id='answerAfinal' />
+				<img src='Images/answer_a_correct.png' class='a-c-img' id='answerAcorrect' />
+				<p class='letter' id='answerAletter' style='left:280px'></p>
+				<p class='answer-text' id='answerAtext' style='left:330px'></p>
+			</div>
+			<div class='answerB' style='left:50%; bottom:240px;'>
+				<img src='Images/answer_b.png' class='a-img'/>
+				<img src='Images/answer_b_final.png' class='a-f-img' id='answerBfinal' />
+				<img src='Images/answer_b_correct.png' class='a-c-img' id='answerBcorrect' />
+				<p class='letter' id='answerBletter' style='left:90px'></p>
+				<p class='answer-text' id='answerBtext' style='left:140px'></p>
+			</div>
+			<div class='answerC' style='left:0px; bottom:160px;'>
+				<img src='Images/answer_c.png' class='a-img'/>
+				<img src='Images/answer_c_final.png' class='a-f-img' id='answerCfinal' />
+				<img src='Images/answer_c_correct.png' class='a-c-img' id='answerCcorrect' />
+				<p class='letter' id='answerCletter' style='left:280px'></p>
+				<p class='answer-text' id='answerCtext' style='left:330px'></p>
+			</div>
+			<div class='answerD' style='left:50%; bottom:160px;'>
+				<img src='Images/answer_d.png' class='a-img'/>
+				<img src='Images/answer_d_final.png' class='a-f-img' id='answerDfinal' />
+				<img src='Images/answer_d_correct.png' class='a-c-img' id='answerDcorrect' />
+				<p class='letter' id='answerDletter' style='left:90px'></p>
+				<p class='answer-text' id='answerDtext' style='left:140px'></p>
+			</div>
+		</div>
+		<button class='lqx'>Load Questions XML</button>
+		<select class='question_selection'>
+
+		</select>
+		<button class='utq'>Update the Question</button>
+	</div>
+	<div class='frame-3'>
+		<div class='moneytree'>
+			<table class='moneytree-table' style='top:100px;border-collapse:collapse;'></table>
+		</div>
+		<div class='moneytree-button-holder'></div>
+		<button class='mst'>Clear</button>
+		<button class='rm'>Reveal the Moneytree</button>
+		<button class='hm'>Hide the Moneytree</button>
+		<div class='lifeline-all-holder'>
+			<div class='lifeline-holder' id='lho1'>
+				<img class='lifeline' id='lili1' src='Images/Lifeline_5050_8K.019.gif' style='width:100%;height:100%;'/>
+				<img class='lifeline-cross' id='licr1' src='Images/lifeline_used.png'/>
+			</div>
+			<div class='lifeline-holder' id='lho2' style='left:100px;'>
+				<img class='lifeline' id='lili2' src='Images/Lifeline_PAF_4K.000.gif' style='width:100%;height:100%;'/>
+				<img class='lifeline-cross' id='licr1' src='Images/lifeline_used.png'/>
+			</div>
+			<div class='lifeline-holder' id='lho3' style='left:200px;'>
+				<img class='lifeline' id='lili3' src='Images/Lifeline_ATA_8K.018.gif' style='width:100%;height:100%'/>
+				<img class='lifeline-cross' id='licr1' src='Images/lifeline_used.png'/>
+			</div>
+			<div class='lifeline-holder' id='lho4' style='left:300px;'>
+				<img class='lifeline' id='lili4' src='Images/Lifeline_ATH_Generic_8K.017.gif' style='width:100%;height:100%'/>
+				<img class='lifeline-cross' id='licr1' src='Images/lifeline_used.png'/>
+			</div>
+		</div>
 	</div>
 	<script>
 		var ar = 0;
 		var fa = "";
-		var ca = "B";
+		var qnow = 0;
+		var risk = false;
+		
+		var chuoi_cau_hoi = [];
+		var money_prize = ['100', '200', '300', '500', '1.000', '2.500', '5.000', '15.000', '30.000', '50.000', '75.000', '150.000', '300.000', '600.000', '2.000.000'];
 	</script>
 </body>
